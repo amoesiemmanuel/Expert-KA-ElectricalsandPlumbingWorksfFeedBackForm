@@ -2,6 +2,14 @@
 @import url(
 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@media (max-width: 768px) {
+    /* Apply styles for screens smaller than 768px */
+    .form-field {
+      width: 100%; /* Make fields full width on small screens */
+    }
+    /* Other adjustments as needed, like font sizes, etc. */
+  } 
+
 body {
     margin: 0;
     display: flex;
